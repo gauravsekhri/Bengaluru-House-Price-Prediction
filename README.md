@@ -4,4 +4,4 @@ This repository contains a model that can predict the price of a house in Bengal
 
 The Project looks like :
 
-![alt text](https://github.com/gauravsekhri/Bengaluru-House-Price-Prediction/blob/master/image.jpg?raw=true)
+![Demo](https://github.com/gauravsekhri/Bengaluru-House-Price-Prediction/blob/master/demo.png?raw=true)
