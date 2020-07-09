@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+body {
+    background: #CDCDCD;
+    padding: 70px 200px 0px 270px;
+    margin: 0px 0px;
+    font-family: 'poppins', sans-serif;
+}
+
+h1 {
+    margin: 0px 0px 70px 80px;
+}
+
+.areainput {
+    width: 300px;
+    height: 150px;
+    display: inline-block;
+    background: transparent;
+    margin: 20px 20px 0px 20px; 
+    padding: 5px 10px 10px 10px;   
+}
+
+.areainput h2 {
+    margin: 20px 0px 20px 0px;
+    color: #000;
+}
+
+.area {
+    width: 80%;
+    height: 30px;
+    font-size: 1.3em;
+}
+
+.bhkinput {
+    width: 300px;
+    height: 150px;
+    display: inline-block;
+    background: transparent;
+    margin: 20px 20px 0px 20px;
+    padding: 10px;    
+}
+
+.bhkinput h2 {
+    margin: 25px 0px;
+    color: #000;
+}
+
+.switch-field {
+	display: flex;
+	margin-bottom: 36px;
+	overflow: hidden;
+}
+
+.switch-field input {
+	position: absolute !important;
+	clip: rect(0, 0, 0, 0);
+	height: 1px;
+	width: 1px;
+	border: 0;
+	overflow: hidden;
+}
+
+.switch-field label {
+	background-color: #e4e4e4;
+	color: rgba(0, 0, 0, 0.6);
+	font-size: 14px;
+	line-height: 1;
+	text-align: center;
+	padding: 8px 16px;
+	margin: 0px 3px;
+	border: 1px solid;
+	transition: all 0.1s ease-in-out;
+    border-radius: 42%;
+}
+
+.switch-field label:hover {
+	cursor: pointer;
+}
+
+.switch-field input:checked + label {
+	background-color: #f0795b;
+	box-shadow: none;
+}
+
+.switch-field label:first-of-type {
+	border-radius: 42%;
+}
+
+.bathinput {
+    width: 300px;
+    height: 150px;
+    display: inline-block;
+    background: transparent;
+    margin: 0px 20px 20px 20px;
+    padding: 10px;
+}
+
+.bathinput h2{
+    color: #000;
+}
+
+.locationinput {
+    width: 300px;
+    height: 150px;
+    display: inline-block;
+    background: transparent;
+    margin: 0px 20px 20px 20px; 
+    padding: 10px;
+     
+}
+
+.locationinput option {
+    font-size: 20px;
+}
+
+.locationinput select {
+    font-size: 20px;
+    padding: 7px;
+}
+
+.locationinput h2{
+    color: #000;
+}
+
+.submit {
+    width: 680px;
+    height: 60px;
+    background: #fff;
+    margin: 20px 0px 0px 20px;
+    font-size: 25px;
+    font-family: 'poppins', sans-serif;
+    background: #aaf05b;
+    border: 1.5px solid;
+}
+
+.result {
+    padding: 20px 0px 20px 290px;
+}
